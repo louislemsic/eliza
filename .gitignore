@@ -134,3 +134,126 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Misc
+bun.lock
+bun.lockb
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Generated files
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Testing
+cov/
+coverage/
+.nyc_output/
+
+# Debug
+*.pdb
+*.pyd
+*.pyo
+*.pyc
+
+# AI/ML specific
+*.model
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+*.weights
+
+# Cache
+.cache/
+*.cache
+node_modules/.cache/
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
